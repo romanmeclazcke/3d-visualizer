@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -53,3 +54,30 @@ dkms.conf
 
 # debug information files
 *.dwo
+=======
+# Monorepo-wide dependencies and build outputs
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+**/*.tsbuildinfo
+
+# Python environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Logs and local env files
+**/*.log
+**/.DS_Store
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Editors
+.idea/
+.vscode/
+>>>>>>> 5c2eab7 (initialization of backend and frontend)

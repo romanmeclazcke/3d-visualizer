@@ -1,0 +1,8 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+opencv-python-headless==4.10.0.84
+numpy==2.2.5
+python-multipart==0.0.20
+pydantic==2.11.3
+pypdf==5.4.0
+Pillow==11.2.1
